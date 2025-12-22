@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankunda Bakainaga – Android & Full-Stack Dev</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+  <script>
+  document.documentElement.dataset.theme = 'dark';
+</script>
+
+  
+</head>
+<body>
+
+<!-- ========== NAVIGATION ========== -->
+<nav>
+  <div><strong>Ankunda Bakainaga</strong></div>
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <span class="theme-toggle" id="themeToggle">🌗</span>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section id="hero">
+  <canvas id="celestialCanvas"></canvas>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Hi, I'm <span style="color:var(--accent)">Ankunda</span></h1>
+    <p class="typewriter" id="typeText"></p>
+    <div style="margin-top:30px;">
+      <a href="#contact"><button>Hire me</button></a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="about">
+  <canvas class="section-canvas" data-section="about"></canvas>
+  <h2>About me</h2>
+  <p>
+    I'm a results-oriented Android & Full-Stack developer with 2+ years of experience building
+    high-performance mobile and web solutions. From Kotlin, Jetpack and Room to C#, .NET and Azure,
+    I love turning ideas into scalable, user-centric products. My background in Biochemistry &
+    Bioinformatics gives me a unique problem-solving lens, while agile teamwork keeps me learning every day.
+  </p>
+  
+  <div class="about-subsections">
+    <div class="about-mission">
+      <h3>Mission</h3>
+      <p>
+        My mission is to harness the power of software development to create meaningful solutions that improve lives 
+        and make everyday tasks easier. I believe technology should serve humanity, removing barriers and creating 
+        opportunities for progress. Whether building mobile applications that connect communities or enterprise systems 
+        that streamline operations, I'm committed to developing tools that move us forward collectively. Every line of 
+        code I write is an opportunity to contribute to a better, more efficient, and more connected world.
+      </p>
+    </div>
+    
+    <div class="about-values">
+      <h3>Values</h3>
+      <p>
+        I'm driven by core values that shape both my work and life. Community is at the heart of everything I do—from 
+        volunteering at local shelters to building apps that bring people together. I believe in effective communication 
+        as the foundation of successful collaboration, ensuring that ideas translate into action. Hard work isn't just 
+        effort; it's dedication to excellence and continuous improvement. Giving back to society through service and 
+        mentorship is essential, as is loving the work you do—passion fuels innovation and creates lasting impact. 
+        These values guide me in creating software that matters.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SKILLS ========== -->
+<section id="skills">
+  <canvas class="section-canvas" data-section="skills"></canvas>
+  <h2>Skills & Tooling</h2>
+  <div class="skills-grid">
+    <div class="skill-card fade-up">Kotlin</div>
+    <div class="skill-card fade-up">Jetpack</div>
+    <div class="skill-card fade-up">Room Database</div>
+    <div class="skill-card fade-up">C# / .NET</div>
+    <div class="skill-card fade-up">Azure & DevOps</div>
+    <div class="skill-card fade-up">Firebase</div>
+    <div class="skill-card fade-up">REST APIs</div>
+    <div class="skill-card fade-up">Git / CI-CD</div>
+    <div class="skill-card fade-up">MVVM Architecture</div>
+    <div class="skill-card fade-up">Entity Framework</div>
+    <div class="skill-card fade-up">AWS (RDS)</div>
+    <div class="skill-card fade-up">MSSQL Server</div>
+    <div class="skill-card fade-up">MySQL</div>
+    <div class="skill-card fade-up">SQLite</div>
+    <div class="skill-card fade-up">Android Studio</div>
+    <div class="skill-card fade-up">Visual Studio</div>
+    <div class="skill-card fade-up">MVC5</div>
+    <div class="skill-card fade-up">JUnit & Espresso</div>
+    <div class="skill-card fade-up">Python</div>
+    <div class="skill-card fade-up">JavaScript</div>
+    <div class="skill-card fade-up">HTML5 & CSS3</div>
+    <div class="skill-card fade-up">Agile Development</div>
+    <div class="skill-card fade-up">Azure Gateway</div>
+  </div>
+</section>
+
+<!-- ========== CERTIFICATIONS ========== -->
+<section id="certifications">
+  <canvas class="section-canvas" data-section="certifications"></canvas>
+  <h2>Certifications</h2>
+<div class="certifications-grid">
+  <div class="certification-card">
+    <img src="images/Associate_Android_Development_Certificate.png" alt="Associate Android Development Certificate">
+    <h3>Associate Android Development Certificate</h3>
+    <p class="cert-issuer">Google</p>
+    <p>Foundational certification validating core Android app development skills using Kotlin and Jetpack components.</p>
+  </div>
+
+  <div class="certification-card">
+    <img src="images/Python_Cert.png" alt="Python for Everyone">
+    <h3>Python for Everyone</h3>
+    <p class="cert-issuer">University of Michigan (Coursera)</p>
+    <p>Comprehensive introduction to Python programming covering basics, data structures, and web data access.</p>
+  </div>
+
+  <div class="certification-card">
+    <img src="images/Web_Design_Cert.png" alt="Web Design for Everybody">
+    <h3>Web Design for Everybody: Basics for Web Development & Coding</h3>
+    <p class="cert-issuer">University of Michigan (Coursera)</p>
+    <p>Foundational course teaching HTML, CSS, JavaScript, and responsive web design principles for beginners.</p>
+  </div>
+
+  <div class="certification-card">
+    <img src="images/Pandas_Python_Cert.png" alt="Pandas with Python">
+    <h3>Pandas with Python</h3>
+    <p class="cert-issuer">Kaggle</p>
+    <p>Hands-on course focused on using Pandas library for data manipulation, cleaning, and analysis in Python.</p>
+  </div>
+
+  <div class="certification-card">
+    <img src="images/Intermediate_Machine_Cert.jpg" alt="Intermediate Machine Learning">
+    <h3>Intermediate Machine Learning</h3>
+    <p class="cert-issuer">Kaggle</p>
+    <p>Advanced course covering model validation, pipelines, cross-validation, and handling missing data in ML.</p>
+  </div>
+
+  <div class="certification-card">
+    <img src="images/AZ-900-Cert.png" alt="AZ-900 Azure Fundamentals">
+    <h3>AZ-900 Azure Fundamentals</h3>
+    <p class="cert-issuer">Microsoft</p>
+    <p>Foundational certification introducing cloud concepts, Azure services, security, and pricing models.</p>
+  </div>
+
+  <div class="certification-card">
+    <img src="images/AI_Machine_Learning_DataScience.png" alt="AI & Machine Learning Data Science">
+    <h3>AI & Machine Learning Data Science</h3>
+    <p class="cert-issuer">Udemy</p>
+    <p>Practical course covering AI fundamentals, machine learning algorithms, and data science workflows.</p>
+  </div>
+</div>
+
+
+<!-- ========== PROJECTS ========== -->
+<section id="projects">
+  <canvas class="section-canvas" data-section="projects"></canvas>
+  <h2>Featured Projects</h2>
+  <div class="projects">
+    <div class="project-card fade-up">
+      <img src="images/Anglo-American-logo.jpg" alt="AngloAmerican">
+      <div class="project-info">
+        <h3>AngloAmerican</h3>
+        <p>Designed and implemented digital applications to streamline operations, eliminating paper-based workflows and introducing role-based access control and comprehensive audit tracking.</p>
+        <div class="project-details" hidden>
+          <p>
+            Developed a comprehensive user access management system for SMS-based systems as part of AngloAmerican's 
+            digital transformation initiative. Led full-stack development in a team of 6, implementing secure authentication 
+            and authorization mechanisms using .NET Framework and Azure. The solution replaced traditional paper forms with 
+            digital workflows, incorporating role-based access control, approval processes, and comprehensive audit trails. 
+            Successfully deployed across multiple environments, ensuring seamless integration with existing enterprise 
+            infrastructure while maintaining high security standards and system reliability.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-card fade-up">
+      <img src="images/Voluntree.png" alt="Community Service Locator">
+      <div class="project-info">
+        <h3>Community Service Locator</h3>
+        <p>Kotlin app using geolocation to find nearby charity work and log volunteer hours on AWS backend.</p>
+        <div class="project-details" hidden>
+          <p>
+            Built from the ground up as sole developer, this Android application connects volunteers with community service 
+            opportunities in their area. Integrated Google Maps API for real-time geolocation services, allowing users to 
+            discover nearby charity events and organizations. Developed a comprehensive time-logging system with Room database 
+            for offline tracking and AWS RDS backend for cloud synchronization. Implemented RESTful APIs to manage volunteer 
+            data, track hours contributed, and provide impact metrics. The app features intuitive UI components built with 
+            Jetpack libraries and follows MVVM architecture for maintainability and scalability.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-card fade-up">
+      <img src="images/ic_app_logo_1.png" alt="Rukiga Language App">
+      <div class="project-info">
+        <h3>Rukiga Language App</h3>
+        <p>Android app teaching Uganda's Rukiga language with quizzes, Room offline DB and AWS RDS cloud sync.</p>
+        <div class="project-details" hidden>
+          <p>
+            A culturally significant educational app designed to preserve and teach Uganda's Rukiga language. Managed the 
+            complete development lifecycle from wireframing through Play Store deployment. Built an offline-first architecture 
+            using Room Database to store words, phrases, and translations locally, with Amazon RDS providing cloud backup and 
+            cross-device synchronization. Developed custom middleware to handle quiz logic, track user progress, and manage 
+            translation pairs. The app features multiple learning modes, interactive quizzes with difficulty levels, and 
+            progress tracking—all wrapped in an intuitive Jetpack-based UI that makes language learning engaging and accessible.
+          </p>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="project-card fade-up">
+      <img src="images/BulkWatsApp.png" alt="BulkWhatsApp">
+      <div class="project-info">
+        <h3>BulkWhatsApp Messenger</h3>
+        <p>.NET + Twilio system distributing personalised WhatsApp messages to thousands of recipients.</p>
+        <div class="project-details" hidden>
+          <p>
+            Engineered a robust messaging platform that revolutionized client communication workflows. Integrated Twilio's 
+            WhatsApp Business API with a .NET backend and MSSQL database to enable automated, personalized mass messaging. 
+            Built a sophisticated templating system allowing dynamic message customization per recipient, with merge fields 
+            for names, dates, and custom data points. Implemented message scheduling, delivery tracking, and comprehensive 
+            analytics dashboard. The system processes thousands of messages reliably, with retry logic, rate limiting, and 
+            error handling. Deployed via Azure DevOps with CI/CD pipelines ensuring zero-downtime updates and scalable 
+            infrastructure.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-card fade-up">
+      <img src="images/Femvend.png" alt="Vending Machine">
+      <div class="project-info">
+        <h3>Women's Sanitation Dispenser</h3>
+        <p>Successfully deployed and maintained vending machine software for dispensing female hygiene products, overseeing database records and enforcing access control rules.</p>
+        <div class="project-details" hidden>
+          <p>
+            Developed and maintained a specialized vending machine application managing the distribution of women's hygiene 
+            products across a network of 25+ machines. Created the entire backend infrastructure using C# and .NET Framework, 
+            with MSSQL Server handling inventory management, transaction logs, and usage analytics. Implemented Azure Gateway 
+            to establish secure communication between cloud services and on-premise servers. Integrated with Softcon's SCS_Client 
+            program for hardware communication. The system features real-time inventory monitoring, automated restocking alerts, 
+            detailed dispense records, and user preference tracking—ensuring reliable, dignified access to essential products 
+            while providing administrators with comprehensive operational insights.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-card fade-up">
+      <img src="images/LoveLife-500x417.png" alt="LoveLife">
+      <div class="project-info">
+        <h3>LoveLife Web Application</h3>
+        <p>Dynamic web portal facilitating role-based user interactions, form submissions, and approval workflows for enhanced operational efficiency.</p>
+        <div class="project-details" hidden>
+          <p>
+            Spearheaded development of a comprehensive web application serving multiple user roles with distinct permissions 
+            and workflows. Built the entire stack from database design through front-end implementation using C#, .NET Framework, 
+            MVC5, and Entity Framework. Created role-specific dashboards for administrators, reviewers, and end-users, each with 
+            tailored functionality. Implemented complex approval processes with multi-stage workflows, email notifications, and 
+            audit logging. Developed RESTful APIs for mobile integration, including the companion LoveLife Forms Android app. 
+            Utilized Azure DevOps for version control and CI/CD pipelines, ensuring smooth deployments. The system handles form 
+            submissions, document management, and reporting—replacing manual processes with efficient digital workflows.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact">
+  <h2>Let's build something together</h2>
+  <form id="contactForm">
+    <input type="text" name="name" placeholder="Your Name" required/>
+    <input type="email" name="email" placeholder="Your Email" required/>
+    <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+    <button type="submit">Send message</button>
+  </form>
+  
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/ankunda-bakainaga" target="_blank" rel="noopener noreferrer">
+      <span class="social-icon linkedin-icon">LinkedIn</span>
+    </a>
+    <a href="https://www.instagram.com/ankunda_bakainaga" target="_blank" rel="noopener noreferrer">
+      <span class="social-icon instagram-icon">Instagram</span>
+    </a>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  &copy; <span id="year"></span> Ankunda Bakainaga. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
